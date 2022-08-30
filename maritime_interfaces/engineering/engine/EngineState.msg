@@ -1,0 +1,11 @@
+# EngineState.msg
+
+std_msgs/Header header
+
+float32 speed
+float32 throttle
+maritime_interfaces_support/GenericSensorData turbo_state
+maritime_interfaces_support/GenericSensorData intake_state
+maritime_interfaces_support/GenericSensorData intercooler_state
+maritime_interfaces_support/FluidData oil_state
+bool water_in_fuel
