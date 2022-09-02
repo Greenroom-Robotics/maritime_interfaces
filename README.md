@@ -26,8 +26,8 @@ This outlines the standard for maritime interfaces
 | Battery            | [sensor_msgs/msg/BatteryState](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/BatteryState.msg)                           | Battery state            |
 | IMU                | [sensor_msgs/msg/Imu](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/Imu.msg)                                             | IMU data                 |
 | Range Finder       | [sensor_msgs/msg/Range](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/Range.msg)                                         | Ranger data              |
-| Satelite Fix (GPS) | [sensor_msgs/msg/NavSatFix](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/NavSatFix.msg)                                 | Sat Fix data             |
-| Satelite Fix (GPS) | [sensor_msgs/msg/NavSatStatus](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/NavSatStatus.msg)                           | Sat Fix info             |
+| Satellite Fix (GPS) | [sensor_msgs/msg/NavSatFix](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/NavSatFix.msg)                                 | Sat Fix data             |
+| Satellite Fix (GPS) | [sensor_msgs/msg/NavSatStatus](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/NavSatStatus.msg)                           | Sat Fix info             |
 | Camera             | [sensor_msgs/msg/CameraInfo](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/CameraInfo.msg)                               | Camera info              |
 | Camera             | [sensor_msgs/msg/Image](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/Image.msg)                                         | Camera data              |
 | Camera             | [sensor_msgs/msg/CompressedImage](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/CompressedImage.msg)                     | Camera data (compressed) |
