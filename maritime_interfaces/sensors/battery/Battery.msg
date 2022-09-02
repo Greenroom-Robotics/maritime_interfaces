@@ -1,3 +1,0 @@
-std_msgs/Header header
-
-sensor_msgs/BatteryState battery_state

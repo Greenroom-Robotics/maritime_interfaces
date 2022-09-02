@@ -1,3 +1,0 @@
-std_msgs/Header header
-
-sensor_msgs/FluidPressure fluid_pressure
