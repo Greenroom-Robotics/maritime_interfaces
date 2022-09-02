@@ -5,19 +5,19 @@ This outlines the standard for maritime interfaces
 
 # Messages
 ## Engineering
-| Component | Message                                                                                                    | Description                    |
-| --------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| Engine    | [maritime_interfaces/msg/EngineConfig](../maritime_interfaces/engineering/engine/EngineConfig.msg)         | Configuration of an engine     |
-| Engine    | [maritime_interfaces/msg/EngineState](../maritime_interfaces/engineering/engine/EngineState.msg)           | State of an engine             |
-| Engine    | [maritime_interfaces/msg/EngineControl](../maritime_interfaces/engineering/engine/EngineControl.msg)       | Control of an engine           |
-| Helm      | [maritime_interfaces/msg/HelmConfig](../maritime_interfaces/engineering/helm/HelmConfig.msg)               | Configuration of a helm        |
-| Helm      | [maritime_interfaces/msg/HelmState](../maritime_interfaces/engineering/helm/HelmState.msg)                 | State of a helm                |
-| Helm      | [maritime_interfaces/msg/HelmControl](../maritime_interfaces/engineering/helm/HelmControl.msg)             | Control of a helm              |
-| Gearbox   | [maritime_interfaces/msg/GearboxControl](../maritime_interfaces/engineering/helm/GearboxControl.msg)       | Control of a gearbox           |
-| Gearbox   | [maritime_interfaces/msg/GearboxState](../maritime_interfaces/engineering/helm/GearboxState.msg)           | State of a gearbox             |
-| Gearbox   | [maritime_interfaces/msg/GearboxConstants](../maritime_interfaces/engineering/helm/GearboxConstants.msg)   | Constants for gearbox messages |
-| Thruster  | [maritime_interfaces/msg/ThrusterControl](../maritime_interfaces/engineering/thruster/ThrusterControl.msg) | Thrust of an thruster          |
-| Thruster  | [maritime_interfaces/msg/ThrusterState](../maritime_interfaces/engineering/thruster/ThrusterState.msg)     | Thrust of an thruster          |
+| Component | Message                                                                                                  | Description                    |
+| --------- | -------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Engine    | [maritime_interfaces/msg/EngineConfig](/maritime_interfaces/engineering/engine/EngineConfig.msg)         | Configuration of an engine     |
+| Engine    | [maritime_interfaces/msg/EngineState](/maritime_interfaces/engineering/engine/EngineState.msg)           | State of an engine             |
+| Engine    | [maritime_interfaces/msg/EngineControl](/maritime_interfaces/engineering/engine/EngineControl.msg)       | Control of an engine           |
+| Helm      | [maritime_interfaces/msg/HelmConfig](/maritime_interfaces/engineering/helm/HelmConfig.msg)               | Configuration of a helm        |
+| Helm      | [maritime_interfaces/msg/HelmState](/maritime_interfaces/engineering/helm/HelmState.msg)                 | State of a helm                |
+| Helm      | [maritime_interfaces/msg/HelmControl](/maritime_interfaces/engineering/helm/HelmControl.msg)             | Control of a helm              |
+| Gearbox   | [maritime_interfaces/msg/GearboxControl](/maritime_interfaces/engineering/helm/GearboxControl.msg)       | Control of a gearbox           |
+| Gearbox   | [maritime_interfaces/msg/GearboxState](/maritime_interfaces/engineering/helm/GearboxState.msg)           | State of a gearbox             |
+| Gearbox   | [maritime_interfaces/msg/GearboxConstants](/maritime_interfaces/engineering/helm/GearboxConstants.msg)   | Constants for gearbox messages |
+| Thruster  | [maritime_interfaces/msg/ThrusterControl](/maritime_interfaces/engineering/thruster/ThrusterControl.msg) | Thrust of an thruster          |
+| Thruster  | [maritime_interfaces/msg/ThrusterState](/maritime_interfaces/engineering/thruster/ThrusterState.msg)     | Thrust of an thruster          |
 
 ## Sensors
 ### Common
