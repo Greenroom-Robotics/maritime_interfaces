@@ -13,9 +13,7 @@ ament_auto_find_build_dependencies()
 
 set(SUPPORT_INTERFACES
   shared/ComponentInfo.msg
-  shared/ContainerState.msg
   shared/FluidData.msg
-  shared/GenericSensorData.msg
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

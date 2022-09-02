@@ -44,6 +44,9 @@ This outlines the standard for maritime interfaces
 | [sensor_msgs/msg/FluidPressure](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/FluidPressure.msg)                                 | Fluid Pressure |
 | [sensor_msgs/msg/Temperature](https://github.com/ros/common_msgs/blob/noetic-devel/sensor_msgs/msg/Temperature.msg)                                     | Temperature    |
 | [notification_msgs/msg/Notification](https://github.com/Greenroom-Robotics/ros_notifications/blob/main/packages/notification_msgs/msg/Notification.msg) |                |
+| [maritime_interfaces/msg/ComponentInfo](maritime_interfaces/support/shared/ComponentInfo.msg)                                                           |                |
+| [maritime_interfaces/msg/FluidData](maritime_interfaces/support/shared/FluidData.msg)                                                                   |                |
+
 
 ## Manouvre
 | Message                                                                                                                                          | Description             |
