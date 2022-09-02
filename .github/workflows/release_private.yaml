@@ -1,4 +1,4 @@
-name: Tag & Release
+name: Tag & Release - Private
 
 on:
   workflow_dispatch:
