@@ -20,6 +20,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Test
-        uses: Greenroom-Robotics/ros_test_action@main
+        uses: Greenroom-Robotics/ros_test_action@no-typecheck
         with:
           token: ${{ secrets.API_TOKEN_GITHUB }}
