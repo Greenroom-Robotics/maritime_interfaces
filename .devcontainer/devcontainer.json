@@ -1,0 +1,14 @@
+{
+	"name": "maritime_interfaces",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "maritime_interfaces",
+	"workspaceFolder": "/home/ros/maritime_interfaces",
+	"shutdownAction": "stopCompose",
+	"extensions": [
+		"ms-vscode.cpptools",
+		"ms-python.python",
+		"ms-python.vscode-pylance"
+	]
+}

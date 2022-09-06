@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  maritime_interfaces:
+    container_name: maritime_interfaces
+    build:
+      context: .
+      args:
+        API_TOKEN_GITHUB: $API_TOKEN_GITHUB
+    volumes:
+      - ./:/home/ros/maritime_interfaces
+    network_mode: host
+    privileged: true
+    ipc: host
